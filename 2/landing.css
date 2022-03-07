@@ -1,0 +1,38 @@
+html, body {
+  background: #eee;
+  margin: 0;
+  font-family: sans-serif;
+  font-size: 1.1rem;
+}
+header {
+  margin: 0;
+  background: #88f;
+}
+menu {
+  margin: 0;
+  padding: 1rem;
+}
+menu > a {
+  color: pink;
+}
+menu > a:hover {
+  color: purple;
+}
+#wrapper {
+  display: flex;
+  width: 100%;
+}
+aside {
+  background: #aaf;
+}
+aside > menu {
+  display: grid;
+}
+
+article {
+  background: #ddd;
+  height: 200px;
+  margin: 0.5rem;
+  padding: 0.3rem;
+  font-family: Comic Sans MS;
+}
